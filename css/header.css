@@ -1,0 +1,136 @@
+header
+{
+    background-image: url(../img/header.jpg);
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+menu
+{
+    background: rgb(75, 52, 42, 0.7);
+    display: flex;
+    justify-content: center;
+    padding: 0 5px;
+}
+
+header .container
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul
+{
+    display: flex;
+    column-gap: 5px;
+}
+
+header nav, header li
+{
+    display: flex;
+}
+
+header nav ul li a 
+{
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    padding: 0 10px;
+   
+}
+
+header nav ul li a:hover
+{
+    background-color: rgb(255, 255, 255, 0.1);
+    transition-duration: 0.5s;
+}
+
+header .nadpis
+{
+    color:white;
+    text-align: center;
+    margin-top: 100px;
+    text-shadow: 2px 2px 10px black;
+}
+
+header .nadpis h2 
+{
+    font-size: 100px;
+    font-family: "Kaushan Script", serif;
+    border-bottom: 1px solid white;
+    padding: 10px;
+    display: inline-block;
+}
+
+header .nadpis h3{
+    font-size: 25px;
+    margin: 1%;
+}
+
+.social a
+{
+color: white;
+font-size: 30px;
+margin: 10px;
+}
+
+.social .fb:hover
+{
+color: blue;
+}
+
+.social .ig:hover
+{
+color: rgb(173, 30, 30);
+}
+
+.social .yt:hover
+{
+    color:red;
+}
+
+@media (max-width: 1250px)
+
+{
+    header .container, header nav ul
+    {
+        flex-direction: column;
+    }
+    header nav {
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    header nav ul li {
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        padding: 10px 20px;
+    }
+    header a.logo{
+        display: flex;
+        justify-content: center;
+    }
+
+    header .nadpis
+    {
+        margin-top:30px;
+    }
+    header .nadpis {
+        font-size: 10vw;
+    }
+    header .nadpis h2 {
+        font-size: 1em;
+    }
+    header .nadpis h3 {
+        font-size: 0.3em;
+    }
+    header .nadpis .social a {
+        font-size: 0.8em;
+        margin: 0 0.2em;
+    }
+}

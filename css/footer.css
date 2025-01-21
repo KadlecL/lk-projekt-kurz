@@ -1,0 +1,49 @@
+footer {
+    background: #805F49;
+    display: flex;
+    justify-content: center;
+    color: white;
+    line-height: 150%;
+    padding:4em;
+}
+footer a {
+    color: white;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer .container {
+    display: flex;
+    justify-content: space-around;
+}
+footer h3 {
+    font-size: 1.5em;
+
+}
+footer .otevreno th {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 1em;
+}
+
+@media (max-width: 750px)
+{
+footer
+{
+    font-size: 0.9em;
+}
+
+footer .container
+
+{
+    margin-left: -4em;
+}
+
+footer .otevreno
+{
+    margin-right: -4em;
+}
+
+}
+

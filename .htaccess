@@ -1,0 +1,9 @@
+# nejaky komentar
+
+# zapneme modul pro "prepisovani" url
+RewriteEngine On
+
+# pokud prijde pozadavek na jakekoliv url co neexistuje pro přesměrování
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.+) index.php?stranka=$1 [L,QSA]
