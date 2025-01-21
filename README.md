@@ -24,4 +24,4 @@ Apple Mac OS - MAMP
 4) Klikněte na tlačítko "Start Servers" v MAMP aplikaci, aby se spustil Apache a MySQL server
 
 4) Zobrazení projektu
-1) Pokud máte správně spuštěného Apache, tak po zadání localhost/index.php do prohlížece, se vám projekt zobrazí. Projekt lze také zobrazit po otevření ve Visual Studio code (nahrajete složku z htdocs se soubory -> otevřete index.php -> pravým kliknete do Visual studia -> zvolte "open in browser html/css/js". Pokud tam tuto možnost nemáte, lze si jí stáhnout v extensions.
+ Pokud máte správně spuštěného Apache, tak po zadání localhost/index.php do prohlížece, se vám projekt zobrazí. Projekt lze také zobrazit po otevření ve Visual Studio code (nahrajete složku z htdocs se soubory -> otevřete index.php -> pravým kliknete do Visual studia -> zvolte "open in browser html/css/js". Pokud tam tuto možnost nemáte, lze si jí stáhnout v extensions.
